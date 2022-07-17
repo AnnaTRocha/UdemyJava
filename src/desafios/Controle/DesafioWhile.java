@@ -1,4 +1,4 @@
-package Desafios.Controle;
+package desafios.Controle;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class DesafioWhile {
 		
 		while(nota != -1) {
 			
-			System.out.println("Digite uma nota de 0 à 10: ");
+			System.out.println("Digite uma nota de 0 ï¿½ 10: ");
 			nota = s.nextFloat();
 
 			
@@ -28,7 +28,7 @@ public class DesafioWhile {
 		}
 		
 		float media = total / qtdNota;
-		System.out.println("Sua média é: " + media);
+		System.out.println("Sua mï¿½dia ï¿½: " + media);
 		
 		s.close();
 	}

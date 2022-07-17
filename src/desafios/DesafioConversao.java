@@ -1,4 +1,4 @@
-package Desafios;
+package desafios;
 
 import java.util.Scanner;
 
@@ -6,13 +6,13 @@ public class DesafioConversao {
 	 public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Digite seu primeiro salário para podermos calcular a média! ");
+		System.out.println("Digite seu primeiro salï¿½rio para podermos calcular a mï¿½dia! ");
 		String s1 = scanner.next().replace(",", ".");
 		
-		System.out.println("Digite seu segundo salário: ");
+		System.out.println("Digite seu segundo salï¿½rio: ");
 		String s2 = scanner.next().replace(",", ".");		
 		
-		System.out.println("Digite seu terceiro salário: ");
+		System.out.println("Digite seu terceiro salï¿½rio: ");
 		String s3 = scanner.next().replace(",", ".");
 		 
 		//Converter pra float
@@ -22,7 +22,7 @@ public class DesafioConversao {
 		
 		Float media = (salario1 + salario2 + salario3) / 3;
 		
-		System.out.println("A média do seu salário é: " + media);
+		System.out.println("A mï¿½dia do seu salï¿½rio ï¿½: " + media);
 		scanner.close();
 		 
 	}

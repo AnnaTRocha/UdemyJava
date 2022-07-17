@@ -1,4 +1,4 @@
-package Desafios;
+package desafios;
 
 public class DesafioOperadoresAritmeticos {
 	public static void main(String[] args) {

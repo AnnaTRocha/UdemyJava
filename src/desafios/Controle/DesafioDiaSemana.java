@@ -1,4 +1,4 @@
-package Desafios.Controle;
+package desafios.Controle;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class DesafioDiaSemana {
 			System.out.println("1");
 		}else if(n.equalsIgnoreCase("Segunda")) {
 			System.out.println("2");
-		}else if(n.equalsIgnoreCase("Terça")) {
+		}else if(n.equalsIgnoreCase("Terï¿½a")) {
 			System.out.println("3");
 		}else if(n.equalsIgnoreCase("Quarta")) {
 			System.out.println("4");
@@ -22,10 +22,10 @@ public class DesafioDiaSemana {
 			System.out.println("5");
 		}else if(n.equalsIgnoreCase("Sexta")) {
 			System.out.println("6");
-		}else if(n.equalsIgnoreCase("Sábado")) {
+		}else if(n.equalsIgnoreCase("Sï¿½bado")) {
 			System.out.println("7");
 		}else {
-			System.out.println("Dia inválido!");
+			System.out.println("Dia invï¿½lido!");
 		}
 		
 		scanner.close();

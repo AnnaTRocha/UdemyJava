@@ -1,4 +1,4 @@
-package Desafios.Controle;
+package desafios.Controle;
 
 public class DesafioControle {
 	public static void main(String[] args) {
