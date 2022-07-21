@@ -10,6 +10,8 @@ public class DataTeste {
 		data.mes = "Janeiro";
 		data.dia = 12;
 		
+		System.out.println(data.obterDataFormatada());
+		
 	}
 	
 }
