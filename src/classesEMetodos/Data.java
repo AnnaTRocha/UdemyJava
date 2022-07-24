@@ -13,9 +13,10 @@ public class Data {
 	}
 	
 	Data(){
-		dia = 01;
-		mes = 01;
-		ano = 1970;
+		//dia = 01;
+		//mes = 01;
+		//ano = 1970;
+		this(1, 1, 1970);
 	}
 	
 	String obterDataFormatada() {
