@@ -28,7 +28,7 @@ public class DesafioWhile {
 		}
 		
 		float media = total / qtdNota;
-		System.out.println("Sua m�dia �: " + media);
+		System.out.println("Sua media e: " + media);
 		
 		s.close();
 	}
