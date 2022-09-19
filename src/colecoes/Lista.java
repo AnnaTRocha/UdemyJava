@@ -15,6 +15,9 @@ public class Lista {
 		
 		System.out.println(lista.get(3));
 		
+		System.out.println(lista.remove(1));
+		System.out.println(lista.contains("Lia"));
+		
 		for(Usuario u: lista) {
 			System.out.println(u.nome);
 		}
