@@ -11,6 +11,10 @@ public class Produto {
 		this.preco = preco;
 		this.desconto = desconto;
 	}
-
+	
+	public Double desconto () {
+		double valorFinal = preco - (preco * desconto);
+		return valorFinal;
+	}
 	
 }
